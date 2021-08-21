@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page-body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+
+    text-align: center;
+
+    font-family: "Press Start 2P";
+}
+
+.title {
+    margin-bottom: 20px;
+
+    font-size: 45px;
+}
+
+.timer-container {
+    padding: 30px;
+
+    margin: auto;
+
+    width: max-content;
+
+    background-color: skyblue;
+
+    border: 3px solid black;
+    border-radius: 4px;
+}
+
+.deadline-text {
+    margin-bottom: 20px;
+
+    font-size: 30px;
+}
+
+.time-blocks {
+    display: flex;
+}
+
+.time-numbers {
+    padding: 20px 15px;
+
+    font-size: 35px;
+
+    margin: 0 5px;
+
+    border: 3px solid black;
+    border-radius: 4px;
+}
+
+.days {
+    background-color: pink;
+}
+
+.hours {
+    background-color: orange;
+}
+
+.minutes {
+    background-color: palegreen;
+}
+
+.seconds {
+    background-color: deeppink;
+}
+
+.description {
+    font-size: 10px;
+
+    margin-top: 10px;
+}
+
+.footer {
+    margin-top: 20px;
+
+    font-size: 35px;
+}

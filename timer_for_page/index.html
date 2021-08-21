@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<link>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Timer for web page</title>
+</head>
+<body class="page-body">
+    <header class="header">
+        <h1 class="title">Таймер для страницы</h1>
+    </header>
+    <main>
+        <div class="timer-container">
+            <p class="deadline-text">До завершения:</p>
+            <div class="time-blocks">
+                <div class="time-block-item">
+                    <div class="time-numbers days"><span id="days">00</span></div>
+                    <p class="description">Дней</p>
+                </div>
+                <div class="time-block-item">
+                    <div class="time-numbers hours"><span id="hours">00</span></div>
+                    <p class="description">Часов</p>
+                </div>
+                <div class="time-block-item">
+                    <div class="time-numbers minutes"><span id="minutes">00</span></div>
+                    <p class="description">Минут</p>
+                </div>
+                <div class="time-block-item">
+                    <div class="time-numbers seconds"><span id="seconds">00</span></div>
+                    <p class="description">Секунд</p>
+                </div>
+            </ul>
+        </div>
+    </main>
+    <footer class="footer">Copyright 2021&copy;</footer>
+
+    <script src='script.js'></script>
+</body>
+</html>
