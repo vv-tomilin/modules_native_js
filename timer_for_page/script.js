@@ -51,7 +51,7 @@ const timer = (dedline) => {
 
         // функция для добавленя нуля перед цифрой если она меньше 9
         function addZero(num) {
-            if (num < 9) {
+            if (num <= 9) {
                 return `0${num}`
             }
             return num;
